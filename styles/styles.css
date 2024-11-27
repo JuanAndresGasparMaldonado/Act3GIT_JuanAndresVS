@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabecera */
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #008000;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #005700;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    min-height: 400px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Imagen */
+img {
+    width: 50vw;
+}
