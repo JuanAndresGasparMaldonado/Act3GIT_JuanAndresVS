@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título de la página -->
+    <title>Horario 1º DAM</title>
+
+    <!-- Enlace a la hoja de estilos CSS externa -->
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/styleshorario.css">
+
+</head>
+<body>
+    <!-- Cabecera -->
+    <header>
+        <h1>Entornos de desarrollo</h1>
+        <p>Actividad 2 Git y GitHub</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="/index.html">INICIO</a>
+        <a href="#horario">HORARIO</a>
+        <a href="/indexsobremi.html">SOBRE MI</a>
+    </nav>
+
+    <!-- Inicio de la tabla que contiene el horario -->
+    <table>
+        <!-- Primera fila: encabezados de la tabla (horas y días de la semana) -->
+        <tr>
+            <td>Horas</td>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miércoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </tr>
+        
+        <!-- Segunda fila: asignaturas correspondientes a la primera hora -->
+        <tr>
+            <td> 8:15 <br> 9:15 <br></td>
+            <!-- La celda "Programación" ocupa dos filas gracias al atributo rowspan -->
+            <td rowspan="2" class="programacion">Programación</td>
+            <td class="ipe">IPE</td>
+            <td rowspan="2" class="entornosdedesarollo">Entornos de Desarollo</td>
+            <td rowspan="2" class="programacion">Programación</td>
+            <td rowspan="2" class="basededatos">Bases de Datos</td>
+        </tr>
+        
+        <!-- Tercera fila: asignaturas correspondientes a la segunda hora -->
+        <tr>
+            <td> 9:15 <br> 10:15 <br></td>
+            <td class="entornosdedesarollo">Entornos de Desarollo</td>
+        </tr>
+        
+        <!-- Cuarta fila: asignaturas correspondientes a la tercera hora -->
+        <tr>
+            <td> 10:15 <br> 11:15 <br></td>
+            <td class="basededatos">Base de Datos</td>
+            <td class="lenguajedemarcas">Lenguaje de Marcas</td>
+            <td class="basededatos">Base de Datos</td>
+            <td class="ipe">IPE</td>
+            <td class="sostenibilidad">Sostenibilidad</td>
+        </tr>
+
+        <!-- Fila del recreo (descanso) -->
+        <tr>
+            <td> 11:15 <br> 11:45 <br></td>
+            <!-- Esta fila abarca todas las columnas de la tabla (colspan=6) -->
+            <td colspan="6" class="recreo">RECREO</td>
+        </tr>
+        
+        <!-- Sexta fila: asignaturas correspondientes a la cuarta hora -->
+        <tr>
+            <td> 11:45 <br> 12:45 <br></td>
+            <td class="basededatos">Base de Datos</td>
+            <td rowspan="3" class="programacion">Programación</td>
+            <td class="basededatos">Base de Datos</td>
+            <td rowspan="2" class="lenguajedemarcas">Lenguaje de Marcas</td>
+            <td class="ipe">IPE</td>
+        </tr>
+        
+        <!-- Séptima fila: asignaturas correspondientes a la quinta hora -->
+        <tr>
+            <td> 12:45 <br> 13:45 <br></td>
+            <td rowspan="2" class="sistemasinformaticos">Sistemas Informáticos</td>
+            <td rowspan="2" class="sistemasinformaticos">Sistemas Informáticos</td>
+            <td class="sistemasinformaticos">Sistemas Informáticos</td>
+        </tr>
+        
+        <!-- Octava fila: asignaturas correspondientes a la última hora del día -->
+        <tr>
+            <td> 13:45 <br> 14:45 <br></td>
+            <td class="digitalizacionaplicada">Digitalización Aplicada</td>
+            <td class="programacion">Programación</td>
+        </tr>
+    </table>
+    
+    <!-- Footer -->
+    <footer>
+        Desarrollado por IES Pablo Picasso
+    </footer>   
+</body>
+</html>

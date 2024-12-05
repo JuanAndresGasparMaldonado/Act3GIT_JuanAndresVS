@@ -1,0 +1,100 @@
+/* Aquí definimos el color de fondo del cuerpo de la página */
+body{
+    background-color: dimgrey;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Cabecera */
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #008000;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #005700;
+}
+
+/* Estilos generales para la tabla, celdas y filas */
+table, td, tr{
+    border-collapse: collapse; /* Hace que los bordes de las celdas se unan */
+    border: black solid;
+    border-style: ridge; /* Estilo de borde en relieve */
+    text-align: center;
+    background-color: PowderBlue; 
+    padding: 10px; /* Espaciado interno en las celdas */
+    font-size: 20px; 
+    font-weight: 800;
+    font-family: "Titillium Web", sans-serif; /* Fuente personalizada */
+    margin: auto; /* Centra la tabla en la página */
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+    min-height: 400px;
+}
+
+/* Estilo específico para la fila del recreo */
+.recreo{
+    letter-spacing: 150px; /* Espaciado entre letras */
+    padding-left: 150px; /* Espaciado desde la izquierda */
+}
+
+/* Asignamos los colores de fondo específicos para cada asignatura */
+
+.programacion{
+    background-color: mediumslateblue;
+}
+
+.basededatos{
+    background-color: PaleGoldenrod;
+}
+
+.sistemasinformaticos{
+    background-color: IndianRed;
+}
+
+.ipe{
+    background-color: PaleVioletRed;
+}
+
+.entornosdedesarollo{
+    background-color: OrangeRed;
+}
+
+.lenguajedemarcas{
+    background-color: olive;
+}
+
+.digitalizacionaplicada{
+    background-color: PaleGreen;
+}
+
+.sostenibilidad{
+    background-color: silver;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
